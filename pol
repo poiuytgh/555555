@@ -1,0 +1,15 @@
+<script setup>
+const hardSkills = ref([
+  'c',
+  'php',
+  'javascript',
+  'golang',
+  'pyhton'
+])
+ 
+const framework = ref([
+  'nuxt',
+  'react',
+  'bootstrap',
+])
+</script>
