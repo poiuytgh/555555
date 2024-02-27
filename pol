@@ -1,15 +1,174 @@
-<script setup>
-const hardSkills = ref([
-  'c',
-  'php',
-  'javascript',
-  'golang',
-  'pyhton'
-])
- 
-const framework = ref([
-  'nuxt',
-  'react',
-  'bootstrap',
-])
-</script>
+body {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white(111, 110, 110);
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+header .spacer {
+    flex-grow: 0.06;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid black;
+}
+
+header .logo h1 img {
+    width: 50%;
+}
+
+header .icons img {
+    width: 30px;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .icons {
+    display: flex;
+    gap: 45px;
+}
+
+.bookshelf {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.frame16 {
+    display: flex;
+    align-items:right;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.latest,
+.bookshelf-btn,
+.follow,
+.list {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.latest {
+    background-color: #98E6B2;
+    color: #000000;
+}
+
+.bookshelf-btn {
+    background-color: #98E6B2;
+    color: #000000;
+}
+
+.follow {
+    background-color: #FCF6C5;
+    color: #000000;
+}
+
+.list {
+    background-color:#98e6b2;
+    color: #000000;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    margin-top: 100px;
+    position:relative;
+}
+
+.following {
+    color: #000000;
+    position:relative
+    right 10px; 
+    top: 10px;
+    border-radius:50%;
+    
+}
+
+.font{
+    height: 300;
+    width: 300;
+    right:300;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    margin-top: 200px;
+    right: 50px;
+}
+
+button {
+    background-color: white;
+}
+
+.prev:disabled 
+
+.example img {
+    position:relative;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    top: 1px; 
+    margin-top: 10px;
+    border-radius:50%;
+}
+.example{
+    display:flex;
+    justify-content:space-between;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    position: relative;
+    padding-bottom: 0%;
+    align-items: center;
+}
+
+.pagination2 {
+   position: relative;
+   align-self: center;
+}
